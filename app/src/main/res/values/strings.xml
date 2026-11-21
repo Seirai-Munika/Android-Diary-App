@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="title1">あなたの日記</string>
+    <string name="title2">日記作成</string>
+    <string name="sub_title1">①日付</string>
+    <string name="sub_title2">②タイトル</string>
+    <string name="sub_title3">③今日の画像</string>
+    <string name="sub_title4">④なにをした？</string>
+    <string name="btn_back">やめる</string>
+    <string name="btn_save">記録する</string>
+</resources>
