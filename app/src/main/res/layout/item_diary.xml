@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_diary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="40dp"
+    android:background="@drawable/bg_item"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/iv_diary_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/red" />
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2026年11月9日"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:text="タイトルタイトルタイ"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="あいうえおかきくけこさしすせそたちつてと、なにぬねの。はひふへほまみむめも、やゆよらりるれろ。わをん。あいうえおかきくけこさしすせそたちつてと、なにぬねの。はひふへほまみむめも、やゆよらりるれろ。わをん。"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>
