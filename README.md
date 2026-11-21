@@ -10,3 +10,6 @@
 
 ## 使用技術
 - Android Studio
+
+## インストール
+[Diary App v1.0.0 ダウンロード](https://github.com/Seirai-Munika/Android-Diary-App/releases/latest)
